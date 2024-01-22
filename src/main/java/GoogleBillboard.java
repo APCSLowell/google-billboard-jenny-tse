@@ -6,7 +6,7 @@ for(int i=9;i<e.length()-9 &&!primeNum;i++) {
    String substring = e.substring(i, i + 10);
    num = Double.parseDouble(substring);
    if(isPrime(num)) {
-      return substring;
+      System.out.print (substring);
       primeNum = true;
    }
   }
