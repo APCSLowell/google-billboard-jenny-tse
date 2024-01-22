@@ -15,7 +15,7 @@ for(int i=9;i<e.length()-9 &&!primeNum;i++) {
 public void draw(){
     // Not needed for this assignment
 }
-public boolean isPrime(double dNum){
+public static boolean isPrime(double dNum){
 if(dNum<=1){
     return false;
 }
