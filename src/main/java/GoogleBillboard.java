@@ -4,7 +4,7 @@ public static void main(final String[] arg) {
    String substring = e.substring(i, i + 10);
    num = Double.parseDouble(substring);
    if(isPrime(num)) {
-      System.out.print (substring);
+      System.out.println (substring);
       primeNum = true;
    }
   }
